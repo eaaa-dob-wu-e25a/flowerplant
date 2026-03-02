@@ -25,4 +25,9 @@ export default function App() {
         <Footer />
     </>
   );
+
+
+  { basename: "/flowerplant" }
+
+
 }
