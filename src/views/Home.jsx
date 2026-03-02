@@ -1,5 +1,6 @@
 import { predefinedGuides } from "../data/predefinedGuides";
 import { useState } from "react";
+import plantImg from "../images/plantimg.jpg";
 
 export default function Home() {
     const [visibleCount, setVisibleCount] = useState(3);
@@ -8,7 +9,8 @@ export default function Home() {
         <h1>Welcome to FlowerPlant</h1>
         <p>Find plant care guides and create your own plant lists.</p>
 
-        <img src="/src/images/plantimg.jpg" alt="A pretty plant" style={{ width: "100%", marginBottom: "16px" }}/>
+        {/* Vite will replace the import with the correct hashed URL */}
+        <img src={plantImg} alt="A pretty plant" style={{ width: "100%", marginBottom: "16px" }}/>
 
 
     <h2>Some Plant Guides:</h2>
