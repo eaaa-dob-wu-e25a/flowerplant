@@ -1,0 +1,84 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  padding: 16px;
+  margin-top: 24px;
+}
+
+.form {
+  border: 1px solid #ddd;
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.form label {
+  display: grid;
+  gap: 4px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.filterbar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input, select, button {
+  padding: 8px;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #1F3A2E; 
+  color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: block;
+}
